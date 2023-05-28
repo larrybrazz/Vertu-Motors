@@ -59,6 +59,7 @@ header .menu-logo {
 
 header .menu-icon {
   display: none;
+  font-size: 20px;
 }
 
 header img {
@@ -230,7 +231,7 @@ body.menu-open {
 
 .section-one p {
   color: #ffffffe3;
-  margin: 0rem 0.2rem;
+  margin: .6rem 0.4rem;
 }
 
 .btn {
@@ -314,7 +315,7 @@ transition: all 1s ease-in-out;
 }
 
 .card ul > li {
-  font-size: .9rem;
+  font-size: .7rem;
   margin-bottom: 0.5rem;
 }
 
@@ -416,10 +417,53 @@ transition: all 1s ease-in-out;
   margin-right: 10px;
 }
 
+/* Login page styling */
+.container {
+  width: 40rem;
+  margin: 5rem auto;
+  padding: 20px;
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+.otherpage-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin:0 auto;
+    
+}
+.loging-h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.login-input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.submit {
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+.submit:hover{
+    background: #dcdfda;
+}
+
+
 /* Media Query */
 
 /* Header and Navigation styling for smaller screens */
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1130px){
    header .search-bar {
     display: none;
   } 
@@ -559,7 +603,9 @@ transition: all 1s ease-in-out;
   .btn {
     width: 100%;
   }
-
+.section-four{
+    padding: 2rem 0;
+}
 .section-four > div {
     display: flex;
     flex-direction: column;
@@ -586,44 +632,3 @@ transition: all 1s ease-in-out;
   }
 }
 
-/* Login page styling */
-.container {
-  width: 40rem;
-  margin: 5rem auto;
-  padding: 20px;
-  background: #f2f2f2;
-  border-radius: 5px;
-}
-.otherpage-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    margin:0 auto;
-    
-}
-.loging-h1 {
-  text-align: center;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  margin-bottom: 10px;
-}
-
-.login-input {
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-.submit {
-  padding: 10px 20px;
-  border: 2px solid black;
-}
-.submit:hover{
-    background: #dcdfda;
-}
