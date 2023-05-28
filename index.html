@@ -13,7 +13,8 @@
 </head>
 <body>
     <header>
-        <div class="menu-logo">
+        <div class="header-container">
+          <div class="menu-logo">
            <span class="menu-icon"><i class="fa fa-bars"></i></span>
            <img class="" src="images/download.png" alt="">
        </div>
@@ -28,19 +29,20 @@
        <!-- Search bar -->
        <div class="search-bar">
         <div>
-         <span><i class="fa fa-search"></i></span>
-        <input type="text" placeholder="Search: 'Make, Model, or location'">
-        </div>
-        <span><i class="fa fa-microphone"></i></span>
+            <i class="fa fa-search"></i>
+         <input type="text" placeholder="Search: 'Make, Model, or location'">
+        </div> 
+        <span> <i class="fa fa-microphone"></i></span> 
        </div>
        <!-- Navigation Icons -->
        <div class="nav-icons">
-           <div><i class="fa fa-location-dot"></i> <p>Find us</p></div>
-          <div><i class="fa fa-search"></i></div>
-          <div><i class="fa fa-heart"></i> <p>Save</p> </div>
-          <div><i class="fa fa-user"></i> <p>Login</p> </div>
-          <span><i class="fa fa-phone"></i></span>
-       </div>
+            <div><i class="fa fa-location-dot"></i> <p>Find us</p></div>
+              <div><i class="fa fa-search"></i></div>
+            <div><i class="fa fa-heart"></i> <p>Save</p> </div>
+            <div class="loginIcon"><i class="fa fa-user"></i> <p>Login</p> </div>
+              <span><i class="fa fa-phone"></i></span>
+           </div>
+        </div>
     </header>
   <!-- Navigation Menu -->
 <div class="menu">
@@ -50,11 +52,11 @@
     </div>
     <nav class="menu-items">
        <ul>
-           <li><a href="#">New cars</a></li>
-           <li><a href="#">Used cars</a></li>
-           <li><a href="#">Servicing</a></li>
-           <li><a href="#">Commercials</a></li>
-           <li><a href="#">Motability</a></li>
+           <li class="menu-link"><a href="#">New cars</a></li>
+           <li  class="menu-link"><a href="#">Used cars</a></li>
+           <li  class="menu-link"><a href="#">Servicing</a></li>
+           <li  class="menu-link"><a href="#">Commercials</a></li>
+           <li  class="menu-link"><a href="#">Motability</a></li>
        </ul>
     </nav>
         </div>
@@ -74,8 +76,8 @@
         <div class="card-container">
             <div class="card">
                 <img src="images/MicrosoftTeams-image (2).png" alt="">
-                <h4>M 50</h4>
-                <p>From E65,795</p>
+                <h3>M 50</h3>
+                <p>From £65,795</p>
                 <ul>
                     <li>Velour floor mats</li>
                     <li>Sun protection glass</li>
@@ -88,41 +90,45 @@
             </div>
             <div class="card">
                 <img src="images/MicrosoftTeams-image (1).png" alt="">
-                <h4>M Sport</h4>
-                <p>From E65,795</p>
-                <div></div>
-                <ul>
+                <h3>M Sport</h3>
+                <p>From £54,980</p>
+                  <ul>
                     <li>Velour floor mats</li>
-                    <li>Sun protection glass</li>
+                    <li>Rain sensor including auto headlights activation</li>
                     <li>Automatic Stability Control (ASC)</li>
-                    <li>Adaptive M suspension</li>
-                    <li>Storage for wireless charging</li>
-                    <li>Cruise control with brake assist</li>
+                    <li>Standard suspension</li>
+                    <li>Electric power steering (EPS) with Servotronic</li>
                     <li>Automatic tailgate operation</li>
                 </ul>
             </div>
             <div class="card">
                 <img src="images/MicrosoftTeams-image.png" alt="">
-                <h4>Sport</h4>
-                <p>From E65,795</p>
+                <h3>Sport</h3>
+                <div>
+                    <p>From £53,480</p>
+                <span class="angle-right-div">
+                     <i class="fa fa-angle-right"></i>
+                </span>
+                </div>
                 <ul>
                     <li>Velour floor mats</li>
-                    <li>Sun protection glass</li>
+                    <li>Rain sensor including auto headlights activation</li>
                     <li>Automatic Stability Control (ASC)</li>
-                    <li>Adaptive M suspension</li>
-                    <li>Storage for wireless charging</li>
-                    <li>Cruise control with brake assist</li>
+                    <li>Standard suspension</li>
+                    <li>Electric power steering (EPS) with Servotronic</li>
                     <li>Automatic tailgate operation</li>
                 </ul>
             </div>
         </div>
+
        </section>
        <section class="section-three">
         <div>
             <div class="section-three-details">
                 <h3>Explore the new BMW <br> interior</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Exercitationem ipsa rerum ad eveniet id libero quasi facilis amet<br> tempore nobis dolore perspiciatis eligendi temporibus culpa fugiat<br> adipisci, sapiente enim harum!</p>
-                <button class="btn">Request a Personalized Video</button>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Exercitationem ipsa rerum ad eveniet id libero quasi facilis <br> amet tempore nobis dolore perspiciatis eligendi temporibus culpa <br> fugiat adipisci, sapiente enim harum!</p>
+                <button class="btn desktop-btn">Request a Personalized Video</button>
+                <button class="btn mobile-btn"> Book a test drive</button>
             </div>
             <div>
                 <img width="100%" src="images/MicrosoftTeams-image (6).png" alt="">
@@ -140,7 +146,7 @@
                 <div class="charging-range">
                     <div>
                         <h3>02:05 hr</h3>
-                        <p>Charging at home for a <br> Range of 62 miles</p>
+                        <p>Charging at home for a Range of 62 miles</p>
                     </div>
                     <div>
                         <h3>365</h3>
